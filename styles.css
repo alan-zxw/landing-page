@@ -6,6 +6,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* HEADING PORTION */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -40,7 +42,6 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
-
 
 .header-bottom {
     display: flex;
@@ -81,4 +82,83 @@ a {
     background-color:gray;
     width: 500px;
     height: 250px;
+}
+
+
+/* Main Body with Image Cards */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.random-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    width: 150px;
+}
+
+.card {
+    flex-shrink: 0;
+    outline: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+/* Quote Section */
+
+.quote-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    
+    width: 905px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    width: 905px;
 }
